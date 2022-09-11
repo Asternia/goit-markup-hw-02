@@ -232,7 +232,6 @@ ul {
 .buttons {
   background-color: var(--main-backgroung-color);
   color: var(--title-text-color);
-  border: var(--main-backgroung-color);
 
   cursor: pointer;
 
