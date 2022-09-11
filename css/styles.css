@@ -18,6 +18,7 @@
   --secondary-background-color: #2F303A;
   --white: #FFFFFF;
   --black: #000000;
+  --background-button-color: #188CE8;
 }
 
 body{
@@ -108,7 +109,6 @@ ul {
   background-color: var(--acent-color);
   color: var(--white);
 
-  border: var(--acent-color);
   cursor: pointer;
 
   font-family: inherit;
@@ -116,6 +116,11 @@ ul {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
+}
+
+.button:focus,
+.button:hover {
+  background-color: var(--background-button-color);
 }
 
 /* переваги */
